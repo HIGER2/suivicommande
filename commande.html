@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DOTWIC | Devenez propriétaire de votre site web</title>
+    <meta
+      name="description"
+      content="The small framework with powerful features"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC:ital@0;1&family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="/" class="navbar-brand">
+                <img src="image/logo.png" alt="Logo" class="logo" />
+            </a>
+
+            <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="material-icons">menu</span>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex ms-auto">
+                    <ul class="header-menu">
+                        <li class="me-5">
+                            <a href="/shopping" id="index6" class="fs-5">
+                                <span
+                                    class="position-relative top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    0
+                                </span>
+                                <span class="material-icons"> <i class="fas fa-shopping-cart"></i> </span>
+                            </a>
+                        </li>
+                        <li class="me-5">
+                            <a href=" {{ route('login') }} " id="index7" class="fs-5"><i class="fas fa-home"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+    </nav>
+</header>
+    <!-- FIN MENU -->
+   <section class="commande">
+       <div class="container">
+            <form action="">
+                <div class="content row ">
+                    <!-- {{-- card right --}} -->
+                    <div class="col-md-9 ms-auto me-auto">
+                        <div class="row ">
+                            <div class="domaine-search col-md-12">
+                                <div class="d-flex">
+                                    <input class="cc-form form-control shadow-none" type="search"
+                                        placeholder="Entrez ici votre nom de domaine" aria-label="Search" />
+                                    <button class="" type="submit"> <i class="fas fa-search"></i> Rechercher</button>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- {{-- tableau --}} -->
+            
+                        <div class="card text-center">
+                            <div class="text-center blu fs-5 my-4">
+                                <span>
+                                    Resultats de votre recherche
+                                </span>
+                            </div>
+                            <div class="table-responsive">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>domaine.com</td>
+                                            <td>2100 cfa / an</td>
+                                            <td class="text-success">Disponible</td>
+                                            <td>
+                                                <a href="#" class="bcom">Choisir <input type="checkbox" class="bcom"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>domaine.com</td>
+                                            <td>2100 cfa / an</td>
+                                            <td class="text-danger">Non disponible</td>
+                                            <td>
+                                                <a href="#" class="bcom">Transferer</a>
+                                            </td>
+                                        </tr>
+            
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <div class="text-center blu fs-5 my-4">
+                                <a href="#" class="bcom">Continuer <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                   
+                </div>
+            </form>
+
+
+                        <div class="row mt-5 ">
+                            <div class="col-md-2 mb-3">
+                                <div class="domaines-box">
+                                    <span class="nom-domaine">.com</span>
+                                    <span class="prix">9500 CFA / an</span>
+                                </div>
+                            </div>
+                            <div class="col-md-2 mb-3">
+                                <div class="domaines-box">
+                                    <span class="nom-domaine">.org</span>
+                                    <span class="prix">9500 CFA / an</span>
+                                </div>
+                            </div>
+                        
+                            <div class="col-md-2 mb-3">
+                                <div class="domaines-box">
+                                    <span class="nom-domaine">.net</span>
+                                    <span class="prix">9500 CFA / an</span>
+                                </div>
+                            </div>
+                            <div class="col-md-2 mb-3">
+                                <div class="domaines-box">
+                                    <span class="nom-domaine">.info</span>
+                                    <span class="prix">9500 CFA / an</span>
+                                </div>
+                            </div>
+                            <div class="col-md-2 mb-3">
+                                <div class="domaines-box">
+                                    <span class="nom-domaine">.biz</span>
+                                    <span class="prix">9500 CFA / an</span>
+                                </div>
+                            </div>
+                            <div class="col-md-2 mb-3">
+                                <div class="domaines-box">
+                                    <span class="nom-domaine">.ci</span>
+                                    <span class="prix">9500 CFA / an</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        </div>
+       </div>
+
+       
+   </section>
+    <!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
+
+    <footer>
+      <section class="card-footer1" style="background: #20386d">
+        <div class="container">
+          <div
+            class="rows-cols-sm-1 border-primary border-1"
+            style="height: rem"
+          >
+            <div class="text-center mb-5 bg-transparent rows-cols-sm-1">
+              <a href="#" class="btn text-center text-light btn-link"
+                >condition de vente</a
+              >
+              <a href="#" class="btn text-center text-light btn-link"
+                >DotWic 2006-2014</a
+              >
+              <span class="text-light"
+                >Contact : <i class="fas fa-mobile"></i> +226.07373703</span
+              >
+              <div class="card bg-transparent border-0 mt-2 mb-5 text-dark">
+                <div
+                  class="col g-4 row rows-cols-sm-1 rows-cols-3 ms-auto me-auto"
+                >
+                  <span class="bg-primary icone"
+                    ><a href="#" class=""
+                      ><i class="fab fa-facebook-f text-dark py-3"></i></a
+                  ></span>
+                  <span class="bg-primary icone"
+                    ><a href="#"
+                      ><i class="fab fa-google-plus-g text-dark py-3"></i></a
+                  ></span>
+                  <span class="bg-primary icone"
+                    ><a href="#"
+                      ><i class="fab fa-instagram text-dark py-3"></i></a
+                  ></span>
+                  <span class="bg-primary icone"
+                    ><a href="#"
+                      ><i class="fab fa-twitter text-dark py-3"></i></a
+                  ></span>
+                  <span class="bg-primary icone"
+                    ><a href="#"><i class="fab fa-skype text-dark py-3"></i></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+
+      <p style="text-align: center; margin-top: 10px">
+        <span><i class="fab fa fa-copyright"></i> </span
+        ><span class="">2006</span><span> </span><span>Docwic</span
+        ><span>, </span><span>Tous droit réservés.</span>
+      </p>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
